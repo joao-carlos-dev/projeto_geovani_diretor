@@ -1,0 +1,68 @@
+@media screen and (min-width: 240px) and (max-width: 820px) {
+    .button {
+        display: block;
+        width: 100%;
+    }
+    
+    .infos-bar {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+
+        &__infos {
+            display: block;
+
+            &__item {
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    .hero {
+        padding:  40px 0;
+
+        &__perfil {
+            height: 40px;
+        }
+
+        &__text {
+            font-size: 22px;
+            line-height: 24px;
+            margin: 24px 0;
+        }
+    }
+    
+    .event {
+        
+        .container {
+            display: block;
+            width: 90%;
+        }
+
+        &__image {
+            width: 100%;
+            display: flex;
+            margin: 0 auto;
+        }
+
+        &__details {
+            margin-right: 0;
+            margin-bottom: 17px;
+        }
+
+    }
+}
+
+@media screen and (min-width: 821px) and (max-width: 1024px) {
+    .infos-bar {
+        &__infos {
+            gap: 16px;
+        }
+    }
+
+    .button {
+        display: flex;
+        align-items: center;
+    }
+}
