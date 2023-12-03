@@ -1,0 +1,59 @@
+@use 'variables';
+
+.event {
+    padding: 80px 0;
+
+    &--meta01 {
+        background-image: linear-gradient(variables.$colorEvent1, variables.$colorEvent2);
+    }
+
+    &--meta02 {
+        background-image: linear-gradient(variables.$colorEvent2, variables.$colorEvent3);
+    }
+
+    &--meta03 {
+        background-image: linear-gradient(variables.$colorEvent3, variables.$colorEvent2);
+    }
+
+    &--meta04 {
+        background-image: linear-gradient(variables.$colorEvent2, variables.$colorEvent1);
+    }
+
+    &--meta05 {
+        background-image: linear-gradient(variables.$colorEvent1, variables.$colorEvent4);
+    }
+
+    &--meta06 {
+        background-image: linear-gradient(variables.$colorEvent4, variables.$colorEvent1);
+    }
+
+    &--image-left {
+        .container {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .container {
+        gap: 40px;
+        display: flex;
+    }
+    
+    &__image {
+        max-width: 360px;
+        border-radius: 12px;
+    }
+    
+    &__details {
+    
+        &__title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+    
+        &__description {
+            line-height: 22px;
+            text-align: justify;
+        }
+    }
+}

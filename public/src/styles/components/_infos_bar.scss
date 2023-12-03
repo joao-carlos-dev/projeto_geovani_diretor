@@ -1,0 +1,29 @@
+@use '../variables';
+
+.infos-bar {
+    padding: 16px 24px;
+    background-color: variables.$textColor;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+
+    &--informacao {
+        background-image: linear-gradient(variables.$colorInfosBar2, variables.$colorInfosBar1);
+    }
+
+    &__infos{ 
+        display: flex;
+        gap: 15px;
+
+        &__item {
+            font-size: 14px;
+            color: variables.$secondaryTextColor;
+
+            b {
+                font-size: 18px;
+                display: block;
+                color: variables.$secondaryTextColor;
+            }
+        }
+    }
+}

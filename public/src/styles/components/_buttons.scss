@@ -1,0 +1,16 @@
+@use '../variables';
+
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 4px;
+    
+    &--primary {
+        color: variables.$secondaryTextColor;
+        background-image: linear-gradient(variables.$colorButton1, variables.$colorButton2);
+    }
+}

@@ -1,0 +1,21 @@
+@use 'variables';
+@use 'hero';
+@use 'components/buttons';
+@use 'components/infos_bar';
+@use 'event';
+@use 'responsivo';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: Roboto, sans-serif;
+    list-style: none;
+    color: variables.$textColor;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
