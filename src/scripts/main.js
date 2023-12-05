@@ -22,7 +22,7 @@ const contaAsHoras = setInterval(function() {
 
     if (diasAteOEvento < 0 ){
         clearInterval(contaAsHoras);
-        document.getElementById('contador').innerHTML = 'Tá na hora de votar!!';
+        document.getElementById('contador').innerHTML = 'Resultado. Geovani agora é o diretor!!!';
     };
 
 }, 1000);
