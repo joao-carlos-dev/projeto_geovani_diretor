@@ -26,13 +26,12 @@ como datas de votação, local, e detalhes sobre o plano de gestão.
     * Alfabetizar de forma efetiva todos os alunos das turmas de anos iniciais
 * **Design Responsivo:** A página se adapta a diferentes tamanhos de tela.
 
-## Estrutura de Pastas
-
-* `images/`: Contém as imagens da página.
-* `styles/`: Arquivos de estilo CSS.
-* `scripts/`: Arquivos JavaScript.
-* `document/`: Arquivos de documentos para download.
-
 ## Contribuição
 
-Contribuições são bem-vindas. Sinta-se à vontade para abrir issues e pull requests para melhorias e correções.
+Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga estas etapas:
+
+1.  Faça um fork do repositório.
+2.  Crie uma branch com a sua funcionalidade ou correção de bug: `git checkout -b minha-funcionalidade`.
+3.  Faça as alterações e commit: `git commit -am 'Adiciona minha funcionalidade'`.
+4.  Envie as alterações para o seu fork: `git push origin minha-funcionalidade`.
+5.  Crie um pull request no GitHub.
