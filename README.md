@@ -1,7 +1,5 @@
 # Geovani Diretor
 
-![Logo da Escola](./images/logo_escola.png)
-
 ## Introdução
 
 Este projeto é uma página web informativa sobre o plano de gestão de Geovani Diretor. Ele destaca as principais propostas e informações relevantes para a comunidade escolar,
